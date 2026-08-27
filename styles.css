@@ -40,7 +40,7 @@ li {
   flex: 1;
 }
 .container {
-  padding: 50px, 0;
+  padding: 50px 0;
 }
 
 .row {
@@ -52,6 +52,7 @@ li {
 .text--purple {
   color: #6030b1;
 }
+
 section:nth-child(even) {
   background-color: #f8f8f8;
 }
@@ -189,6 +190,7 @@ nav {
   justify-content: center;
   position: relative;
 }
+
 .language__img--wrapper {
   display: flex;
   justify-content: center;
@@ -210,6 +212,7 @@ nav {
   font-size: 20px;
   opacity: 0;
 }
+
 .language:hover .language__name {
   transform: scale(1);
   opacity: 1;
