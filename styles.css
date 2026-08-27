@@ -174,7 +174,7 @@ nav {
 .language__img {
   width: 100%;
   max-width: 100px;
-  transition: all 300ms ease;
+  transition: all 300ms;
 }
 
 .language:hover .language__img {
@@ -189,12 +189,11 @@ nav {
   justify-content: center;
   position: relative;
 }
-
 .language__img--wrapper {
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 25px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 16px;
 }
 
 .language__list {
@@ -209,8 +208,8 @@ padding: 25px 16px;
   transform: scale(0);
   transition: all 300ms;
   font-size: 20px;
+  opacity: 0;
 }
-
 .language:hover .language__name {
   transform: scale(1);
   opacity: 1;
